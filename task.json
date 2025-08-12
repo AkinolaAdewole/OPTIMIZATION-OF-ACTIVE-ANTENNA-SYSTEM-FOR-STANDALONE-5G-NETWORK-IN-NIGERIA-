@@ -1,0 +1,11 @@
+{
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "label": "Run MATLAB File",
+      "type": "shell",
+      "command": "matlab -batch \"run('${file}')\"",
+      "problemMatcher": []
+    }
+  ]
+}
